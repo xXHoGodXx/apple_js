@@ -1,0 +1,411 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Rethink Sans;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    max-width: 100%;
+}
+
+.header {
+    padding-bottom: 30px;
+    font-family: Rethink Sans;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    padding-top: 15px;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.box {
+    gap: 20PX;
+    width: 1100px;
+    border-radius: 10px;
+    height: 100px;
+    background-color: rgb(245, 245, 247);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box a {
+    color: rgb(71, 143, 217);
+    text-decoration: none;
+}
+
+.box-1 {
+    font-family: Rethink Sans;
+    padding-left: 100px;
+    padding-top: 100px;
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-1 h1 {
+    color: #1D1D1F;
+    padding: 15px 0 15px;
+    font-family: Rethink Sans;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+}
+.bitis {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box-1 h5 {
+    color: #f39223;
+
+    font-family: Rethink Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0.98px;
+}
+
+
+.box-1 p {
+    color: rgb(49, 54, 58);
+    font-family: Rethink Sans;
+    font-size: 21px;
+    padding-bottom: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0.105px;
+}
+
+.box-2 {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.box-2 img {
+    border-radius: 20px;
+    padding-left: 100px;
+    width: 1400px;
+
+}
+.btnflex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.elem-1 {
+
+    justify-content: center;
+    padding-left: 220px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.elem-1 h2 {
+    padding: 0 60px 20px;
+}
+
+.btn {
+
+    border-style: none;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding: 30px 0 30px;
+
+    margin-bottom: 15px;
+}
+
+#btn {
+    padding: 30px 0 30px;
+
+}
+
+.btn1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+#images {
+    position: sticky;
+    top: 0px;
+}
+
+.elem2 {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    max-width: 100px;
+}
+
+.box-3 {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 500px;
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    flex-direction: column;
+
+}
+
+.box-3 h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.box-3 span {
+    color: rgb(134, 134, 139);
+}
+
+
+.btn {
+    background-color: rgb(245, 245, 247);
+    border-style: none;
+    padding: 20px 0 20px;
+    border-radius: 10px;
+    height: 100px;
+}
+
+.bts {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.color {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.element {
+    display: flex;
+    justify-content: right;
+    width: 150px;
+    gap: 10px;
+
+}
+
+.color h1 {
+    padding-bottom: 20px;
+}
+
+.color h4 {
+
+    padding-bottom: 10px;
+}
+
+.color span {
+    color: rgb(134, 134, 139);
+}
+
+.btnss {
+
+    background-color: #fff;
+    border-style: none;
+    gap: 20px;
+}
+
+.second {
+    display: flex;
+    justify-content: right;
+    padding-right: 150px;
+
+}
+
+.open:hover {
+    text-decoration: underline;
+}
+
+.foot {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.foot span {
+    color: rgb(134, 134, 139);
+}
+
+.foot h1 {
+    padding: 150px 0 20px;
+}
+
+.footer {
+    padding-right: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.button {
+    width: 300px;
+    height: 50px;
+    padding: 30px 0 50px;
+    margin: 5px 0 0;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #fff;
+}
+
+.dfdfe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog {
+
+    width: 1000px;
+    height: 1000px;
+    background-color: #fff;
+    padding: 20px 0 20px;
+    border-radius: 50px;
+}
+
+.dialog h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.dialog button {
+    background-color: #fff;
+    border-style: none;
+    width: 50px;
+    height: 50px;
+    margin: 20px 10px 0;
+}
+
+.dialog p {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.dialog a {
+    padding-left: 290px;
+    color: rgb(85, 153, 221);
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.dialog a:hover {
+    text-decoration: underline;
+}
+
+.head_btn {
+    padding: 30px 0 30px;
+    display: flex;
+    gap: 60px;
+    padding-right: 90px;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.selected {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selected select {
+    margin: 10px 0 0;
+    border-radius: 12px;
+    border: 1px solid rgb(134, 134, 139);
+    width: 600px;
+    height: 60px;
+    font-size: 20px;
+    padding: 0 10px 0;
+}
+
+.title {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.head_btn img {
+    max-width: 110px;
+}
+
+.from-drop {
+    position: absolute;
+    pointer-events: none;
+    transition-timing-function: ease-in;
+    transition-duration: .125s;
+    top: 0.58824rem;
+    left: 1rem;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+}
+
